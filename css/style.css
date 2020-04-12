@@ -1,0 +1,513 @@
+/*========================
+google fonts
+==========================*/
+
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,700,900|Roboto:100,300,400,900&display=swap');
+
+/*========================
+start common css
+==========================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+buttton:focus,
+input:focus {
+    outline: 0;
+}
+
+.theme-bg {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+}
+
+.theme-bg .overlear {
+    background: linear-gradient(90deg, rgba(9,5,47,0.85) 0%, rgba(49,29,94,0.85) 100%);
+    width: 100%;
+    height: 100%;
+}
+
+/*section title css*/
+.section-title {}
+
+.section-title h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+}
+
+.section-title h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2f2d35;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.section-title h3:before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    top: 100%;
+    left: 50%;
+    background: #c6c4c9;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.section-title p {
+    color: #999;
+}
+
+
+/*========================
+end common css
+==========================*/
+
+
+
+/*========================
+start nav bar
+==========================*/
+.navbar {
+    position: absolute;
+    width: 100%;
+    background: ;
+    z-index: 999999;
+}
+
+.navbar a {
+    padding: 29px 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    color: #fff;
+    padding-left: 10px;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #00e0d0;
+}
+
+/*========================
+endnav bar
+==========================*/
+/*========================
+  banner part
+==========================*/
+.banner {
+    position: relative;
+}
+
+.banner .single_slide {
+    width: 100%;
+}
+
+.banner .banner_text {
+    padding: 220px 0;
+}
+
+.banner .banner_text h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 22px;
+    margin-bottom: 26px;
+}
+
+.banner .banner_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    line-height: 2;
+    padding: 0px 113px;
+    padding-bottom: 28px;
+}
+
+.banner .banner_text a {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 14px 15px;
+    border: 1px solid #00e0d0;
+    line-height: 1;
+}
+
+.banner .banner_text h1:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 1px;
+    background: #00e0d0;
+}
+
+.banner .left_arrow,
+.banner .right_arrow {
+    position: absolute;
+    color: #090202;
+    z-index: 9999;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    font-size: 71px;
+    border: none;
+    color: #fff;
+}
+
+
+.banner .left_arrow {
+    left: 3%;
+}
+
+.banner .right_arrow {
+    right: 3%;
+}
+
+.banner .slick-dots {
+    position: absolute;
+    bottom: 11%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner .slick-dots li {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.banner .slick-dots li button {
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #aaa9af;
+    background: none;
+}
+
+.banner .slick-dots li.slick-active button {
+    background: #02d6c9;
+    border: 1px solid #02d6c9;
+}
+
+/*========================
+ banner part end
+==========================*/
+/*========================
+ story_part start
+==========================*/
+.story_part {
+	padding: 90px 0;
+}
+.story_part .section-title h2{
+    padding-bottom: 20px;
+}
+.story_part .section-title p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #413d4b;
+	padding-bottom: 30px;
+	margin-bottom: 0;
+}
+.story_part .section-title a {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 14px 15px;
+    border: 1px solid #00e0d0;
+    line-height: 1;
+}
+/*========================
+ story_part end
+==========================*/
+/*========================
+ play_part start
+==========================*/
+.play_part .play_item{
+    padding: 189px 0;
+}
+.play_part .play_item .play_btn{
+    padding-bottom: 30px;
+}
+.play_part .play_item .play_text h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #fff;
+}
+/*========================
+ play_part end
+==========================*/
+/*========================
+ expertise part start
+==========================*/
+.expertise{
+    padding: 97px 0;
+}
+.expertise .single_item{
+    padding-top: 50px;
+}
+.expertise .single_item .image{}
+.expertise .single_item .text{}
+.expertise .single_item .text h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #413d4b;
+    padding: 32px 0 13px 0;
+}
+.expertise .single_item .text p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #333;
+	padding: 0 52px;
+}
+/*========================
+ expertise part end
+==========================*/
+/*========================
+ banner part end
+==========================*/
+/*========================
+ team part start
+==========================*/
+.team_area .overlear{
+    
+}
+.team_area .section-title{
+    padding-top: 90px;
+}
+.team_area .section-title h2{
+    color: #fff;
+}
+.team_area .section-title h3{
+    margin-bottom: 48px;
+    color: #fff;
+}
+
+.team_area .single_team {
+    border: 1px solid #7c7990;
+}
+
+.team_area .single_team .image img {
+    width: 100%;
+}
+
+.team_area .single_team .team_text {
+    text-align: center;
+}
+
+.team_area .single_team .team_text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 0 12px 0;
+}
+
+.team_area .single_team .team_text h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #fafafa;
+    padding-bottom: 27px;
+}
+.team_area .team_btm{
+    padding: 65px 0 90px 0;
+}
+.team_area .team_btm p {
+	color: #fff;
+	padding-bottom: 6px;
+    font-size: 14px;
+}
+.team_btm a{
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 14px 15px;
+    border: 1px solid #00e0d0;
+    line-height: 1;
+}
+
+/*========================
+ team part end
+==========================*/
+/*========================
+ work_area start
+==========================*/
+.work_area{
+    padding: 90px 0;
+}
+.work_area .section-title{}
+.work_area .work_btn{
+    padding: 0px 0 47px 0;
+}
+.work_area .work_btn button {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #413d4b;
+	line-height: 1;
+	padding: 12px 9px;
+	margin-left: 10px;
+	background: transparent;
+	border: 1px solid #ddd;
+}
+.work_area .mix_active{
+    padding-bottom: 70px;
+}
+/*========================
+ work_area end
+==========================*/
+/*========================
+ slider_area start
+==========================*/
+.slider_area {
+    position: relative;
+}
+.slider_area .single_slaid .slider_text{
+    text-align: center;
+}
+.slider_area .single_slaid .slider_text h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 100px;
+    color: #fff;
+}
+.slider_area .single_slaid .slider_text p {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	padding: 0 193px;
+}
+.slider_area .single_slaid .slider_text h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+.slider_area .single_slaid .slider_text h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.slider_area .left_arrow,
+.slider_area .right_arrow {
+    position: absolute;
+    color: #090202;
+    z-index: 9999;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    font-size: 71px;
+    border: none;
+    color: #fff;
+}
+
+
+.slider_area .left_arrow {
+    left: 3%;
+}
+
+.slider_area .right_arrow {
+    right: 3%;
+}
+
+.slider_area .slick-dots {
+    position: absolute;
+    bottom: 11%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider_area .slick-dots li {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.slider_area .slick-dots li button {
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #aaa9af;
+    background: none;
+}
+
+.slider_area .slick-dots li.slick-active button {
+    background: #02d6c9;
+    border: 1px solid #02d6c9;
+}
+/*========================
+ slider_area end
+==========================*/
+/*========================
+ work_area start
+==========================*/
+/*========================
+ work_area end
+==========================*/
