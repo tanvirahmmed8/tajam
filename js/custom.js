@@ -7,8 +7,8 @@ $(function () {
         autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
-        prevArrow: '.left_arrow',
-        nextArrow: '.right_arrow'
+        prevArrow: '.left_arrowa',
+        nextArrow: '.right_arrowa'
 
     });
     
@@ -29,5 +29,11 @@ $(function () {
     
     //    mixitup
     var mixer = mixitup('.mix_active');
+    
+     $(".navbar-toggler").click(function () {
+        $(".navbar-toggler-icon i").toggleClass("fa-bars");
+        $(".navbar-toggler-icon i").toggleClass("fa-times");
+        
+    });
 
 });

@@ -1,0 +1,404 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar .navbar-nav {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+        background: #241651;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .navbar-collapse {
+        transition: all .4s linear;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 1px solid #fff;
+        padding: 12px;
+        line-height: normal;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: none;
+    }
+
+    .navbar-light .navbar-toggler-icon i {
+        color: #fff;
+        line-height: 29px;
+        font-size: 34px;
+    }
+
+
+    .banner .banner_text {
+        padding: 140px 0;
+    }
+
+    .story_part .story_image {
+        padding-bottom: 18px;
+    }
+
+    .story_part .section-title {
+        text-align: center;
+    }
+
+    .play_part .play_item {
+        padding: 160px 0;
+    }
+
+    .expertise .single_item {
+        padding-top: 16px;
+    }
+
+    .expertise .single_item .text p {
+        padding: 0px 13px;
+    }
+
+    .team_area .single_team {
+        margin-bottom: 36px;
+    }
+
+    .slider_area .single_slaid .slider_text p {
+        padding: 0 84px;
+    }
+
+    .brand_area .brand_title {
+        text-align: center;
+    }
+
+    .brand_area .right_brand {
+        padding-top: 40px;
+    }
+
+    .brand_area .right_brand .brand_logo {
+        text-align: center;
+    }
+
+    .footer_area .foo_midd .foo_body i {
+        font-size: 23px;
+    }
+
+    .footer_area .foo_midd .foo_body p {
+        padding: 0;
+    }
+
+    .footer_area .foo_right .fl_body .subscribe h6 {
+        padding: 10px 11px;
+    }
+
+    .footer_area .foo_right .fl_body .subscribe a {
+        padding: 5px 17px;
+    }
+
+    .footer_area .foo_right .fl_body .subscribe a i {
+        font-size: 27px;
+    }
+
+    .footer_area .foo_right .fl_body .socal_accaunt a {
+        height: 30px;
+        width: 30px;
+        margin-right: 1px;
+    }
+
+    .footer_area .foo_right .fl_body .socal_accaunt a i {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .footer_area .copyright .link a {
+        padding-right: 24px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-nav {
+        width: 90%;
+        margin: 0 auto;
+        background: #241651;
+        padding: 12px 0;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .navbar-collapse {
+        transition: all .4s linear;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 1px solid #fff;
+        padding: 10px;
+        line-height: normal;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: none;
+    }
+
+    .navbar-light .navbar-toggler-icon i {
+        color: #fff;
+        line-height: 29px;
+        font-size: 34px;
+    }
+
+
+    .banner .banner_text {
+        padding: 140px 0;
+    }
+
+    .banner .left_arrowa,
+    .banner .right_arrowa {
+        font-size: 0;
+    }
+
+    .banner .banner_text p {
+        padding: 0px 31px;
+    }
+
+    .story_part .story_image {
+        padding-bottom: 18px;
+    }
+
+    .story_part .section-title {
+        text-align: center;
+    }
+
+    .play_part .play_item {
+        padding: 160px 0;
+    }
+
+    .expertise .single_item {
+        padding-top: 16px;
+    }
+
+    .expertise .single_item .text p {
+        padding: 0px 81px;
+    }
+
+    .team_area .single_team {
+        margin-bottom: 36px;
+    }
+
+    .slider_area .single_slaid .slider_text p {
+        padding: 0 16px;
+    }
+
+    .slider_area .left_arrow,
+    .slider_area .right_arrow {
+        font-size: 0;
+    }
+
+    .brand_area .brand_title {
+        text-align: center;
+    }
+
+    .brand_area .right_brand {
+        padding-top: 40px;
+    }
+
+    .brand_area .right_brand .brand_logo {
+        text-align: center;
+    }
+
+    .footer_area .foo_midd .foo_body i {
+        font-size: 23px;
+    }
+
+    .footer_area .foo_midd .foo_body p {
+        padding: 0;
+    }
+
+    .footer_area .foo_right .fl_body .subscribe h6 {
+        padding: 10px 11px;
+    }
+
+    .footer_area .foo_right .fl_body .subscribe a {
+        padding: 5px 17px;
+    }
+
+    .footer_area .foo_right .fl_body .subscribe a i {
+        font-size: 27px;
+    }
+
+    .footer_area .foo_right .fl_body .socal_accaunt a {
+        height: 30px;
+        width: 30px;
+        margin-right: 1px;
+    }
+
+    .footer_area .foo_right .fl_body .socal_accaunt a i {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .footer_area .copyright .link a {
+        padding-right: 24px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar-nav {
+        width: 90%;
+        margin: 0 auto;
+        background: #241651;
+        padding: 12px 0;
+    }
+
+    .navbar a {
+        padding: 20px 0;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .navbar-collapse {
+        transition: all .4s linear;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 1px solid #fff;
+        padding: 10px;
+        line-height: normal;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: none;
+    }
+
+    .navbar-light .navbar-toggler-icon i {
+        color: #fff;
+        line-height: 29px;
+        font-size: 34px;
+    }
+
+
+    .banner .banner_text {
+        padding: 110px 0;
+    }
+
+    .banner .left_arrowa,
+    .banner .right_arrowa {
+        font-size: 0;
+    }
+
+    .banner .banner_text p {
+        padding: 10px 1px;
+    }
+
+    .banner .slick-dots {
+        bottom: 6%;
+    }
+
+    .story_part .story_image {
+        padding-bottom: 18px;
+    }
+
+    .story_part .section-title {
+        text-align: center;
+    }
+
+    .play_part .play_item {
+        padding: 160px 0;
+    }
+
+    .expertise .single_item {
+        padding-top: 16px;
+    }
+
+    .expertise .single_item .text p {
+        padding: 0px 1px;
+    }
+
+    .team_area .single_team {
+        margin-bottom: 36px;
+    }
+
+    .work_area button {
+        margin-top: 12px;
+    }
+
+    .slider_area .single_slaid .slider_text p {
+        padding: 0;
+    }
+
+    .slider_area .left_arrow,
+    .slider_area .right_arrow {
+        font-size: 0;
+    }
+
+    .brand_area .brand_title {
+        text-align: center;
+    }
+
+    .brand_area .right_brand {
+        padding-top: 40px;
+    }
+
+    .brand_area .right_brand .brand_logo {
+        text-align: center;
+    }
+
+    .footer_area .overlear {
+        padding: 20px 0;
+        padding-top: 70px;
+    }
+
+    .footer_area .foo-abc {
+        padding-left: 30px;
+    }
+
+    .footer_area .foo_midd .foo_body i {
+        font-size: 23px;
+    }
+
+    .footer_area .foo_midd .foo_body p {
+        padding: 0;
+    }
+
+    .footer_area .foo_right .fl_body .subscribe h6 {
+        padding: 10px 11px;
+    }
+
+    .footer_area .foo_right .fl_body .subscribe a {
+        padding: 5px 17px;
+    }
+
+    .footer_area .foo_right .fl_body .subscribe a i {
+        font-size: 27px;
+    }
+
+    .footer_area .foo_right .fl_body .socal_accaunt a {
+        height: 30px;
+        width: 30px;
+        margin-right: 1px;
+    }
+
+    .footer_area .foo_right .fl_body .socal_accaunt a i {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .footer_area .copyright .link a {
+        padding: 0 13px;
+    }
+
+    .footer_area .copyright .text_l {
+        text-align: center;
+        padding-top: 27px;
+    }
+}

@@ -64,7 +64,7 @@ input:focus {
 }
 
 .theme-bg .overlear {
-    background: linear-gradient(90deg, rgba(9,5,47,0.85) 0%, rgba(49,29,94,0.85) 100%);
+    background: linear-gradient(90deg, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%);
     width: 100%;
     height: 100%;
 }
@@ -199,8 +199,8 @@ endnav bar
     background: #00e0d0;
 }
 
-.banner .left_arrow,
-.banner .right_arrow {
+.banner .left_arrowa,
+.banner .right_arrowa {
     position: absolute;
     color: #090202;
     z-index: 9999;
@@ -213,11 +213,11 @@ endnav bar
 }
 
 
-.banner .left_arrow {
+.banner .left_arrowa {
     left: 3%;
 }
 
-.banner .right_arrow {
+.banner .right_arrowa {
     right: 3%;
 }
 
@@ -254,19 +254,22 @@ endnav bar
  story_part start
 ==========================*/
 .story_part {
-	padding: 90px 0;
+    padding: 90px 0;
 }
-.story_part .section-title h2{
+
+.story_part .section-title h2 {
     padding-bottom: 20px;
 }
+
 .story_part .section-title p {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
-	color: #413d4b;
-	padding-bottom: 30px;
-	margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #413d4b;
+    padding-bottom: 30px;
+    margin-bottom: 0;
 }
+
 .story_part .section-title a {
     font-family: 'Hammersmith One', sans-serif;
     font-weight: 400;
@@ -277,52 +280,62 @@ endnav bar
     border: 1px solid #00e0d0;
     line-height: 1;
 }
+
 /*========================
  story_part end
 ==========================*/
 /*========================
  play_part start
 ==========================*/
-.play_part .play_item{
+.play_part .play_item {
     padding: 189px 0;
 }
-.play_part .play_item .play_btn{
+
+.play_part .play_item .play_btn {
     padding-bottom: 30px;
 }
-.play_part .play_item .play_text h2{
+
+.play_part .play_item .play_text h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 16px;
     color: #fff;
 }
+
 /*========================
  play_part end
 ==========================*/
 /*========================
  expertise part start
 ==========================*/
-.expertise{
+.expertise {
     padding: 97px 0;
 }
-.expertise .single_item{
+
+.expertise .single_item {
     padding-top: 50px;
 }
-.expertise .single_item .image{}
-.expertise .single_item .text{}
-.expertise .single_item .text h3{
+
+.expertise .single_item .image {}
+
+.expertise .single_item .text {}
+
+.expertise .single_item .text h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 14px;
     color: #413d4b;
     padding: 32px 0 13px 0;
 }
+
 .expertise .single_item .text p {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
-	color: #333;
-	padding: 0 52px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333;
+    padding: 0 52px;
 }
+
 /*========================
  expertise part end
 ==========================*/
@@ -332,16 +345,17 @@ endnav bar
 /*========================
  team part start
 ==========================*/
-.team_area .overlear{
-    
-}
-.team_area .section-title{
+.team_area .overlear {}
+
+.team_area .section-title {
     padding-top: 90px;
 }
-.team_area .section-title h2{
+
+.team_area .section-title h2 {
     color: #fff;
 }
-.team_area .section-title h3{
+
+.team_area .section-title h3 {
     margin-bottom: 48px;
     color: #fff;
 }
@@ -373,15 +387,18 @@ endnav bar
     color: #fafafa;
     padding-bottom: 27px;
 }
-.team_area .team_btm{
+
+.team_area .team_btm {
     padding: 65px 0 90px 0;
 }
+
 .team_area .team_btm p {
-	color: #fff;
-	padding-bottom: 6px;
+    color: #fff;
+    padding-bottom: 6px;
     font-size: 14px;
 }
-.team_btm a{
+
+.team_btm a {
     font-family: 'Hammersmith One', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -398,27 +415,32 @@ endnav bar
 /*========================
  work_area start
 ==========================*/
-.work_area{
+.work_area {
     padding: 90px 0;
 }
-.work_area .section-title{}
-.work_area .work_btn{
+
+.work_area .section-title {}
+
+.work_area .work_btn {
     padding: 0px 0 47px 0;
 }
+
 .work_area .work_btn button {
-	font-family: 'Myriad Pro', sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	color: #413d4b;
-	line-height: 1;
-	padding: 12px 9px;
-	margin-left: 10px;
-	background: transparent;
-	border: 1px solid #ddd;
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #413d4b;
+    line-height: 1;
+    padding: 12px 9px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid #ddd;
 }
-.work_area .mix_active{
+
+.work_area .mix_active {
     padding-bottom: 70px;
 }
+
 /*========================
  work_area end
 ==========================*/
@@ -428,31 +450,40 @@ endnav bar
 .slider_area {
     position: relative;
 }
-.slider_area .single_slaid .slider_text{
+
+.slider_area .single_slaid .slider_text {
     text-align: center;
 }
-.slider_area .single_slaid .slider_text h2{
+
+.slider_area .single_slaid .slider_text h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 100px;
     color: #fff;
 }
+
 .slider_area .single_slaid .slider_text p {
-	font-family: 'Playfair Display', serif;
-	font-weight: 400;
-	font-size: 16px;
-	color: #fff;
-	padding: 0 193px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 193px;
 }
-.slider_area .single_slaid .slider_text h3{
+
+.slider_area .single_slaid .slider_text h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 16px;
+    color: #fff;
+    padding-top: 20px;
 }
-.slider_area .single_slaid .slider_text h4{
+
+.slider_area .single_slaid .slider_text h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 16px;
+    color: #fff;
+    padding-bottom: 130px;
 }
 
 .slider_area .left_arrow,
@@ -491,19 +522,184 @@ endnav bar
 
 .slider_area .slick-dots li button {
     font-size: 0;
-    height: 10px;
-    width: 10px;
+    height: 21px;
+    width: 21px;
     border-radius: 50%;
-    border: 1px solid #aaa9af;
-    background: none;
+    border: 1px solid #fff;
+    background: #fff;
 }
 
 .slider_area .slick-dots li.slick-active button {
     background: #02d6c9;
-    border: 1px solid #02d6c9;
+    border: 6px solid #fff;
 }
+
 /*========================
  slider_area end
+==========================*/
+/*========================
+ brand_area start
+==========================*/
+.brand_area {
+    padding: 72px 0;
+}
+
+.brand_area .brand_title {}
+
+.brand_area .brand_title h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+}
+
+.brand_area .left-brand input {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+    color: #413d4b;
+	width: 90%;
+	margin-top: 24px;
+	padding: 16px 19px;
+	text-transform: capitalize;
+    border: 1px solid #e5e5e5;
+}
+
+.brand_area .left-brand textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #413d4b;
+    width: 90%;
+	padding: 16px 19px;
+    margin-top: 24px;
+    display: block;
+	text-transform: capitalize;
+    border: 1px solid #e5e5e5;
+}
+
+.brand_area .left-brand button {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 14px 15px;
+    border: 1px solid #00e0d0;
+    line-height: 1;
+    background: none;
+     margin-top: 24px;
+}
+
+.brand_area .right_brand {
+    padding-bottom: 42px;
+}
+
+.brand_area .right_brand .brand_logo {
+    padding-top: 47px;
+}
+
+/*========================
+ brand_area end
+==========================*/
+/*========================
+ footer_area start
+==========================*/
+.footer_area .overlear {
+	padding: 90px 0;
+}
+.footer_area .foo_title h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+	color: #fff;
+	padding: 19px 0 32px 0;
+}
+.footer_area .foo_left{}
+.footer_area .foo_left .footer_logo{}
+.footer_area .foo_left .footer_text{}
+.footer_area .foo_left .footer_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 28px;
+}
+.footer_area .foo_midd{}
+.footer_area .foo_midd .foo_body{}
+.footer_area .foo_midd .foo_body .fob_top{}
+.footer_area .foo_midd .foo_body i{
+    color: #fff;
+    font-size: 27px;
+}
+.footer_area .foo_midd .foo_body p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 57px 0 0;
+}
+.footer_area .foo_midd .foo_body .contact{}
+.footer_area .foo_midd .foo_body .contact i{}
+.footer_area .foo_midd .foo_body .contact p{}
+.footer_area .foo_right{}
+.footer_area .foo_right .fl_body{}
+.footer_area .foo_right .fl_body .subscribe{}
+.footer_area .foo_right .fl_body .subscribe h6 {
+     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+	padding: 18px 17px;
+	border: 1px solid #9e96af;
+	color: #fff;
+    margin: 0;
+}
+.footer_area .foo_right .fl_body .subscribe a{
+    padding: 10px 23px;
+    background: #a099b3;
+}
+.footer_area .foo_right .fl_body .subscribe a i{
+    font-size: 35px;
+    color: #000;
+}
+.footer_area .foo_right .fl_body .socal_accaunt{
+    padding-top: 27px;
+}
+.footer_area .foo_right .fl_body .socal_accaunt a{
+   height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-right: 9px;
+}
+.footer_area .foo_right .fl_body .socal_accaunt a i{
+    font-size: 18px;
+    color: #fff;
+    line-height: 35px;
+}
+.footer_area .copyright{
+    padding-top: 70px;
+}
+.footer_area .copyright .link{}
+.footer_area .copyright .link a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding-right: 33px
+}
+.footer_area .copyright .text_l{
+    text-align: right;
+}
+.footer_area .copyright .text_l h6{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;   
+}
+/*========================
+ footer_area end
 ==========================*/
 /*========================
  work_area start
