@@ -25,11 +25,25 @@
 </head>
 
 <body>
+
+    <!--====== PREALODER PART START ======-->
+    <div class="preloader">
+        <div class="loading-logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="loading">
+            <div class="effect-1"></div>
+            <div class="effect-2"></div>
+            <div class="effect-3"></div>
+        </div>
+    </div>
+    <!--====== PREALODER PART ENDS ======-->
+
     <!--========== nav css start ==========-->
-    <nav class="navbar navbar-expand-lg navbar-light p-0">
+    <nav class="navbar nav_menu navbar-expand-lg navbar-light p-0">
         <div class="container">
             <!-- logo part -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="images/logo.png" class="img-fluid w-100" alt="logo">
             </a>
             <!-- logo part -->
@@ -42,25 +56,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#story_part">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">EXPERTISE</a>
+                        <a class="nav-link" href="#expertise">EXPERTISE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">TEAMS</a>
+                        <a team_area class="nav-link" href="#team_area">TEAMS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">WORKS</a>
+                        <a class="nav-link" href="#work_area">WORKS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PEOPLE SAY</a>
+                        <a class="nav-link" href="#slider_area">PEOPLE SAY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#foo_midd">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -142,7 +156,7 @@
     <!--========== banner css end ==========-->
 
     <!--========== story_part start ==========-->
-    <section class="story_part">
+    <section class="story_part" id="story_part">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-12 text-center">
@@ -186,7 +200,7 @@
     <!--========== play_part end ==========-->
 
     <!--========== expertise start ==========-->
-    <section class="expertise">
+    <section class="expertise" id="expertise">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-0 offset-lg-1">
@@ -269,7 +283,7 @@
     <!--========== expertise end ==========-->
 
     <!--========== team_area start ==========-->
-    <section class="team_area theme-bg" style="background: url(images/team_bg.jpg)">
+    <section class="team_area theme-bg" id="team_area" style="background: url(images/team_bg.jpg)">
         <div class="overlear">
             <div class="container">
                 <div class="row">
@@ -338,7 +352,7 @@
     <!--========== team_area end ==========-->
 
     <!--========== work_area start ==========-->
-    <section class="work_area">
+    <section class="work_area" id="work_area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-0 offset-lg-1">
@@ -406,7 +420,7 @@
     <!--========== work_area end ==========-->
 
     <!--========== slider_area start ==========-->
-    <section class="slider_area theme-bg" style="background: url(images/slider_bg.jpg)">
+    <section class="slider_area theme-bg" id="slider_area" style="background: url(images/slider_bg.jpg)">
         <div class="overlear">
             <div class="container">
                 <button class="left_arrow">
@@ -568,7 +582,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12 foo_left">
                         <!--footer_logo-->
                         <div class="footer_logo">
-                            <a href="#">
+                            <a href="index.html">
                                 <img src="images/logo-2.png" alt="logo">
                             </a>
                         </div>
@@ -581,7 +595,7 @@
                     <!--footer_left end-->
 
                     <!--footer_midd start-->
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 foo_midd">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 foo_midd" id="foo_midd">
                         <div class="foo_title">
                             <h3>OUR STUDIO</h3>
                         </div>
@@ -666,7 +680,11 @@
     </footer>
     <!--========== footer_area end ==========-->
 
-
+    <!--========== back-to-top button start ==========-->
+    <a href="#" class="back-to-top">
+        <img src="images/back-to-top.gif" alt="back-to-top">
+    </a>
+    <!--========== back-to-top button end ==========-->
 
     <!--========== jquery js ==========-->
     <script src="js/jquery-1.12.4.min.js"></script>
@@ -680,6 +698,8 @@
     <script src="js/venobox.min.js"></script>
     <!--========== mixitup js ==========-->
     <script src="js/mixitup.min.js"></script>
+    <!--========== smooth-scroll js ==========-->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
     <!--========== main js ==========-->
     <script src="js/custom.js"></script>
 

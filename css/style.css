@@ -139,6 +139,47 @@ start nav bar
     color: #00e0d0;
 }
 
+/*stiky menu*/
+/*sticky menu css*/
+.nav_menu.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #292757;
+    z-index: 999;
+    border-bottom: 1px solid #cecece;
+    -webkit-box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+    -webkit-animation: sticky 2s;
+    animation: sticky 2s;
+}
+
+/*For Animation*/
+@-webkit-keyframes sticky {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+}
+
+@keyframes sticky {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+}
+
 /*========================
 endnav bar
 ==========================*/
@@ -554,14 +595,14 @@ endnav bar
 }
 
 .brand_area .left-brand input {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
     color: #413d4b;
-	width: 90%;
-	margin-top: 24px;
-	padding: 16px 19px;
-	text-transform: capitalize;
+    width: 90%;
+    margin-top: 24px;
+    padding: 16px 19px;
+    text-transform: capitalize;
     border: 1px solid #e5e5e5;
 }
 
@@ -571,10 +612,10 @@ endnav bar
     font-size: 14px;
     color: #413d4b;
     width: 90%;
-	padding: 16px 19px;
+    padding: 16px 19px;
     margin-top: 24px;
     display: block;
-	text-transform: capitalize;
+    text-transform: capitalize;
     border: 1px solid #e5e5e5;
 }
 
@@ -588,7 +629,7 @@ endnav bar
     border: 1px solid #00e0d0;
     line-height: 1;
     background: none;
-     margin-top: 24px;
+    margin-top: 24px;
 }
 
 .brand_area .right_brand {
@@ -606,104 +647,270 @@ endnav bar
  footer_area start
 ==========================*/
 .footer_area .overlear {
-	padding: 90px 0;
+    padding: 90px 0;
 }
+
 .footer_area .foo_title h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 15px;
-	color: #fff;
-	padding: 19px 0 32px 0;
+    color: #fff;
+    padding: 19px 0 32px 0;
 }
-.footer_area .foo_left{}
-.footer_area .foo_left .footer_logo{}
-.footer_area .foo_left .footer_text{}
-.footer_area .foo_left .footer_text p{
+
+.footer_area .foo_left {}
+
+.footer_area .foo_left .footer_logo {}
+
+.footer_area .foo_left .footer_text {}
+
+.footer_area .foo_left .footer_text p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
     color: #fff;
     padding-top: 28px;
 }
-.footer_area .foo_midd{}
-.footer_area .foo_midd .foo_body{}
-.footer_area .foo_midd .foo_body .fob_top{}
-.footer_area .foo_midd .foo_body i{
+
+.footer_area .foo_midd {}
+
+.footer_area .foo_midd .foo_body {}
+
+.footer_area .foo_midd .foo_body .fob_top {}
+
+.footer_area .foo_midd .foo_body i {
     color: #fff;
     font-size: 27px;
 }
+
 .footer_area .foo_midd .foo_body p {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
-	color: #fff;
-	padding: 0 57px 0 0;
-}
-.footer_area .foo_midd .foo_body .contact{}
-.footer_area .foo_midd .foo_body .contact i{}
-.footer_area .foo_midd .foo_body .contact p{}
-.footer_area .foo_right{}
-.footer_area .foo_right .fl_body{}
-.footer_area .foo_right .fl_body .subscribe{}
-.footer_area .foo_right .fl_body .subscribe h6 {
-     font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
-	padding: 18px 17px;
-	border: 1px solid #9e96af;
-	color: #fff;
+    color: #fff;
+    padding: 0 57px 0 0;
+}
+
+.footer_area .foo_midd .foo_body .contact {}
+
+.footer_area .foo_midd .foo_body .contact i {}
+
+.footer_area .foo_midd .foo_body .contact p {}
+
+.footer_area .foo_right {}
+
+.footer_area .foo_right .fl_body {}
+
+.footer_area .foo_right .fl_body .subscribe {}
+
+.footer_area .foo_right .fl_body .subscribe h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 18px 17px;
+    border: 1px solid #9e96af;
+    color: #fff;
     margin: 0;
 }
-.footer_area .foo_right .fl_body .subscribe a{
+
+.footer_area .foo_right .fl_body .subscribe a {
     padding: 10px 23px;
     background: #a099b3;
 }
-.footer_area .foo_right .fl_body .subscribe a i{
+
+.footer_area .foo_right .fl_body .subscribe a i {
     font-size: 35px;
     color: #000;
 }
-.footer_area .foo_right .fl_body .socal_accaunt{
+
+.footer_area .foo_right .fl_body .socal_accaunt {
     padding-top: 27px;
 }
-.footer_area .foo_right .fl_body .socal_accaunt a{
-   height: 35px;
+
+.footer_area .foo_right .fl_body .socal_accaunt a {
+    height: 35px;
     width: 35px;
     border-radius: 50%;
     border: 1px solid #fff;
     text-align: center;
     margin-right: 9px;
 }
-.footer_area .foo_right .fl_body .socal_accaunt a i{
+
+.footer_area .foo_right .fl_body .socal_accaunt a i {
     font-size: 18px;
     color: #fff;
     line-height: 35px;
 }
-.footer_area .copyright{
+
+.footer_area .copyright {
     padding-top: 70px;
 }
-.footer_area .copyright .link{}
-.footer_area .copyright .link a{
+
+.footer_area .copyright .link {}
+
+.footer_area .copyright .link a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #fff;
     padding-right: 33px
 }
-.footer_area .copyright .text_l{
+
+.footer_area .copyright .text_l {
     text-align: right;
 }
-.footer_area .copyright .text_l h6{
-  font-family: 'Roboto', sans-serif;
+
+.footer_area .copyright .text_l h6 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #fff;   
+    color: #fff;
 }
+
 /*========================
  footer_area end
 ==========================*/
 /*========================
- work_area start
+ preloader start
+==========================*/
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    background: #fff;
+    padding: 15% 50%;
+}
+
+.loading-logo {
+    position: absolute;
+    left: calc(50% - 45px);
+    top: 40%;
+}
+
+.loading {
+    position: absolute;
+    left: calc(50% - 35px);
+    top: 50%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+}
+
+.loading .effects {
+    transition: all .3s ease;
+}
+
+.loading .effect-1 {
+    animation: rotate 1s ease infinite;
+}
+
+.loading .effect-2 {
+    animation: rotateOpacity 1s ease infinite .1s;
+}
+
+.loading .effect-1,
+.loading .effect-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left: 3px solid rgba(121, 97, 249, 1);
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.loading .effect-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-left: 3px solid rgba(121, 97, 249, 1);
+    -webkit-animation: rotateOpacity 1s ease infinite .2s;
+    animation: rotateOpacity 1s ease infinite .2s;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes rotateOpacity {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: .1;
+    }
+
+    100% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+        opacity: 1;
+    }
+}
+
+/*========================
+ preloader end
 ==========================*/
 /*========================
- work_area end
+ back-to-top button start
+==========================*/
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    display: none;
+    animation: anim 2s infinite;
+}
+.back-to-top img{ 
+    height: 60px;
+    right: 20px;
+    bottom: 20px;
+}  
+
+@keyframes anim {
+    from {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    to {
+        right: 20px;
+        bottom: 50px;
+    }
+}
+
+/*========================
+ back-to-top button end
 ==========================*/
