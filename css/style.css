@@ -70,7 +70,6 @@ input:focus {
 }
 
 /*section title css*/
-.section-title {}
 
 .section-title h2 {
     font-family: 'Playfair Display', serif;
@@ -139,7 +138,6 @@ start nav bar
     color: #00e0d0;
 }
 
-/*stiky menu*/
 /*sticky menu css*/
 .nav_menu.sticky {
     position: fixed;
@@ -357,9 +355,6 @@ endnav bar
     padding-top: 50px;
 }
 
-.expertise .single_item .image {}
-
-.expertise .single_item .text {}
 
 .expertise .single_item .text h3 {
     font-family: 'Roboto', sans-serif;
@@ -386,7 +381,6 @@ endnav bar
 /*========================
  team part start
 ==========================*/
-.team_area .overlear {}
 
 .team_area .section-title {
     padding-top: 90px;
@@ -459,8 +453,6 @@ endnav bar
 .work_area {
     padding: 90px 0;
 }
-
-.work_area .section-title {}
 
 .work_area .work_btn {
     padding: 0px 0 47px 0;
@@ -658,12 +650,6 @@ endnav bar
     padding: 19px 0 32px 0;
 }
 
-.footer_area .foo_left {}
-
-.footer_area .foo_left .footer_logo {}
-
-.footer_area .foo_left .footer_text {}
-
 .footer_area .foo_left .footer_text p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -671,12 +657,6 @@ endnav bar
     color: #fff;
     padding-top: 28px;
 }
-
-.footer_area .foo_midd {}
-
-.footer_area .foo_midd .foo_body {}
-
-.footer_area .foo_midd .foo_body .fob_top {}
 
 .footer_area .foo_midd .foo_body i {
     color: #fff;
@@ -691,19 +671,7 @@ endnav bar
     padding: 0 57px 0 0;
 }
 
-.footer_area .foo_midd .foo_body .contact {}
-
-.footer_area .foo_midd .foo_body .contact i {}
-
-.footer_area .foo_midd .foo_body .contact p {}
-
-.footer_area .foo_right {}
-
-.footer_area .foo_right .fl_body {}
-
-.footer_area .foo_right .fl_body .subscribe {}
-
-.footer_area .foo_right .fl_body .subscribe h6 {
+.footer_area .foo_right .fl_body .subscribe input {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -711,16 +679,21 @@ endnav bar
     border: 1px solid #9e96af;
     color: #fff;
     margin: 0;
+    background: transparent;
+    width: 100%;
 }
 
-.footer_area .foo_right .fl_body .subscribe a {
-    padding: 10px 23px;
-    background: #a099b3;
+.footer_area .foo_right .fl_body .subscribe button {
+	padding: 9px 13px;
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
-.footer_area .foo_right .fl_body .subscribe a i {
+.footer_area .foo_right .fl_body .subscribe button i {
     font-size: 35px;
-    color: #000;
+    color: #222;
 }
 
 .footer_area .foo_right .fl_body .socal_accaunt {
@@ -745,8 +718,6 @@ endnav bar
 .footer_area .copyright {
     padding-top: 70px;
 }
-
-.footer_area .copyright .link {}
 
 .footer_area .copyright .link a {
     font-family: 'Roboto', sans-serif;
@@ -893,11 +864,12 @@ endnav bar
     display: none;
     animation: anim 2s infinite;
 }
-.back-to-top img{ 
+
+.back-to-top img {
     height: 60px;
     right: 20px;
     bottom: 20px;
-}  
+}
 
 @keyframes anim {
     from {

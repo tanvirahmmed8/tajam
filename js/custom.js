@@ -69,7 +69,7 @@ $(function () {
         }
     });
 
-    //==== Animate the scroll to top
+    //==== Animate the scroll back-to-top
     $('.back-to-top').on('click', function (event) {
         event.preventDefault();
 
